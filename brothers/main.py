@@ -7,7 +7,7 @@ app=Flask(__name__)
 # المسار الرئيسي
 @app.route("/")
 def main():
-    return render_template("welcome_page.html")
+    return render_template("index.html")
 ###########################################
 ###########################################
 ###########################################
